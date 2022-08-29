@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mostserrat";
+}
+html{
+    height: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #DFDABF;
+}
+.Logo{
+    cursor: pointer;
+}
+.Logo_Image{
+    width: 177px; 
+    height: 95px,
+}
+.Nav_Links a, Contact_Button{
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #323542
+}
+.Nav_Links{
+    list-style: none;
+    display: flex;
+} 
+.Nav_Links li {
+  padding: 0px 20px;
+}
+
+.Nav_Links li a {
+  transition: all 0.3s ease 0s;
+}
+.Nav_Links li a:hover{
+  color: #D17A41;
+  text-decoration: underline;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(209, 122, 65, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Montserrat";
+}
+button:hover{
+    background-color: rgba(209, 122, 65, 0.8);
+}
+.hero_image{
+  background-image: url("https://img.grouponcdn.com/deal/cUk16Qmztg6cFPQEsFyi/S6-5616x3370/v1/c870x524.jpg");
+  margin: auto;
+  height: 900px;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #DFDABF;
+}
+.footer-nav{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer_Links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Footer_Links li {
+  list-style-type: none;
+  height: 50px;
+  width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.instagram-logo{
+  width: 100%;
+  height: 100%;
+}
+.facebook-logo{
+  width: 100%;
+  height: 100%;
+}
+.twitter-logo{
+  width: 100%;
+  height: 100%;
+}
+.tiktok-logo{
+  width: 100%;
+  height: 100%;
+}
+.gird-container{
+  display: gird;
+}
+.cart-logo{
+  width: 50px;
+  height: 41.02px;
+}
+.image-text{
+  background-color: rgba(209, 122, 65, 0.5);
+  padding: 80;
+  border-radius: 30px;
+}
+.para-one, .para-two{
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: white;
+  font-size: 50px;
+}
+.para-two{
+  text-align: center;
+}
+.order-bttn{
+  padding: 10px;
+}
+
+footer.contact{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:90px; 
+  background-color: #DFDABF;
+}
+.contact-form,
+.contact-form * {
+    box-shadow: border-box; 
+    font-family: sans-serif;
+}
+
+.contact-form {
+    max-width: 550px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15 px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form__content{
+    padding:30px;
+    background:  #DFDABF;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.contact-form__header{
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333333;
+    width: 400px;
+}
+.contact-form__input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    outline: none;
+    transition: border-color 0.5s;
+}
+.contact-form__message{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    outline: none;
+    transition: border-color 0.5s;
+}
+.contact-form__button{
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #000000;
+    width: 50%;
+    outline: none;
+    border: 5px;
+    cursor: pointer;
+}
+body.contact {
+background-image: url("https://free4kwallpapers.com/uploads/originals/2019/02/01/pizza--wallpaper.jpg");
+  margin: auto;
+  height: 900px;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.column{
+  height: 500px;
+  width: 500px;
+  background-color: #d58754 ;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 10px;
+}
+.card-image{
+  height: 300px;
+  width: autopx;
+}
+.card{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body.menu{
+  background-color: #e8e5d2;
+}
+.card-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card-info p{
+  text-align: center;
+  margin: 10px;
+  font-family: "Montserrat";
+}
+p.name{
+margin: 10px;
+font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+}
+.gird-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.cart-button{
+  background-color: #eac3a9;
+  margin: 10px;
+}
